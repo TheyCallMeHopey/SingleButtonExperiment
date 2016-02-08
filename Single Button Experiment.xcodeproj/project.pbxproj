@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8F6BB071C177E060097675A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6BB061C177E060097675A /* AppDelegate.swift */; };
+		F8F6BB091C177E060097675A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6BB081C177E060097675A /* ViewController.swift */; };
+		F8F6BB0C1C177E060097675A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F6BB0A1C177E060097675A /* Main.storyboard */; };
+		F8F6BB0E1C177E060097675A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F6BB0D1C177E060097675A /* Assets.xcassets */; };
+		F8F6BB111C177E060097675A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F6BB0F1C177E060097675A /* LaunchScreen.storyboard */; };
+		F8F6BB1C1C177E060097675A /* Single_Button_ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6BB1B1C177E060097675A /* Single_Button_ExperimentTests.swift */; };
+		F8F6BB271C177E060097675A /* Single_Button_ExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6BB261C177E060097675A /* Single_Button_ExperimentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8F6BB181C177E060097675A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F6BAFB1C177E060097675A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F6BB021C177E060097675A;
+			remoteInfo = "Single Button Experiment";
+		};
+		F8F6BB231C177E060097675A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F6BAFB1C177E060097675A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F6BB021C177E060097675A;
+			remoteInfo = "Single Button Experiment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8F6BB031C177E060097675A /* Single Button Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Single Button Experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F6BB061C177E060097675A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8F6BB081C177E060097675A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8F6BB0B1C177E060097675A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8F6BB0D1C177E060097675A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8F6BB101C177E060097675A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8F6BB121C177E060097675A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F6BB171C177E060097675A /* Single Button ExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Single Button ExperimentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F6BB1B1C177E060097675A /* Single_Button_ExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Single_Button_ExperimentTests.swift; sourceTree = "<group>"; };
+		F8F6BB1D1C177E060097675A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F6BB221C177E060097675A /* Single Button ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Single Button ExperimentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F6BB261C177E060097675A /* Single_Button_ExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Single_Button_ExperimentUITests.swift; sourceTree = "<group>"; };
+		F8F6BB281C177E060097675A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8F6BB001C177E060097675A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F6BB141C177E060097675A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F6BB1F1C177E060097675A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8F6BAFA1C177E060097675A = {
+			isa = PBXGroup;
+			children = (
+				F8F6BB051C177E060097675A /* Single Button Experiment */,
+				F8F6BB1A1C177E060097675A /* Single Button ExperimentTests */,
+				F8F6BB251C177E060097675A /* Single Button ExperimentUITests */,
+				F8F6BB041C177E060097675A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8F6BB041C177E060097675A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F6BB031C177E060097675A /* Single Button Experiment.app */,
+				F8F6BB171C177E060097675A /* Single Button ExperimentTests.xctest */,
+				F8F6BB221C177E060097675A /* Single Button ExperimentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8F6BB051C177E060097675A /* Single Button Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				F8F6BB061C177E060097675A /* AppDelegate.swift */,
+				F8F6BB081C177E060097675A /* ViewController.swift */,
+				F8F6BB0A1C177E060097675A /* Main.storyboard */,
+				F8F6BB0D1C177E060097675A /* Assets.xcassets */,
+				F8F6BB0F1C177E060097675A /* LaunchScreen.storyboard */,
+				F8F6BB121C177E060097675A /* Info.plist */,
+			);
+			path = "Single Button Experiment";
+			sourceTree = "<group>";
+		};
+		F8F6BB1A1C177E060097675A /* Single Button ExperimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8F6BB1B1C177E060097675A /* Single_Button_ExperimentTests.swift */,
+				F8F6BB1D1C177E060097675A /* Info.plist */,
+			);
+			path = "Single Button ExperimentTests";
+			sourceTree = "<group>";
+		};
+		F8F6BB251C177E060097675A /* Single Button ExperimentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8F6BB261C177E060097675A /* Single_Button_ExperimentUITests.swift */,
+				F8F6BB281C177E060097675A /* Info.plist */,
+			);
+			path = "Single Button ExperimentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8F6BB021C177E060097675A /* Single Button Experiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F6BB2B1C177E060097675A /* Build configuration list for PBXNativeTarget "Single Button Experiment" */;
+			buildPhases = (
+				F8F6BAFF1C177E060097675A /* Sources */,
+				F8F6BB001C177E060097675A /* Frameworks */,
+				F8F6BB011C177E060097675A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Single Button Experiment";
+			productName = "Single Button Experiment";
+			productReference = F8F6BB031C177E060097675A /* Single Button Experiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8F6BB161C177E060097675A /* Single Button ExperimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F6BB2E1C177E060097675A /* Build configuration list for PBXNativeTarget "Single Button ExperimentTests" */;
+			buildPhases = (
+				F8F6BB131C177E060097675A /* Sources */,
+				F8F6BB141C177E060097675A /* Frameworks */,
+				F8F6BB151C177E060097675A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F6BB191C177E060097675A /* PBXTargetDependency */,
+			);
+			name = "Single Button ExperimentTests";
+			productName = "Single Button ExperimentTests";
+			productReference = F8F6BB171C177E060097675A /* Single Button ExperimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8F6BB211C177E060097675A /* Single Button ExperimentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F6BB311C177E060097675A /* Build configuration list for PBXNativeTarget "Single Button ExperimentUITests" */;
+			buildPhases = (
+				F8F6BB1E1C177E060097675A /* Sources */,
+				F8F6BB1F1C177E060097675A /* Frameworks */,
+				F8F6BB201C177E060097675A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F6BB241C177E060097675A /* PBXTargetDependency */,
+			);
+			name = "Single Button ExperimentUITests";
+			productName = "Single Button ExperimentUITests";
+			productReference = F8F6BB221C177E060097675A /* Single Button ExperimentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8F6BAFB1C177E060097675A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hope Elizabeth";
+				TargetAttributes = {
+					F8F6BB021C177E060097675A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F8F6BB161C177E060097675A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F8F6BB021C177E060097675A;
+					};
+					F8F6BB211C177E060097675A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F8F6BB021C177E060097675A;
+					};
+				};
+			};
+			buildConfigurationList = F8F6BAFE1C177E060097675A /* Build configuration list for PBXProject "Single Button Experiment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8F6BAFA1C177E060097675A;
+			productRefGroup = F8F6BB041C177E060097675A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8F6BB021C177E060097675A /* Single Button Experiment */,
+				F8F6BB161C177E060097675A /* Single Button ExperimentTests */,
+				F8F6BB211C177E060097675A /* Single Button ExperimentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8F6BB011C177E060097675A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F6BB111C177E060097675A /* LaunchScreen.storyboard in Resources */,
+				F8F6BB0E1C177E060097675A /* Assets.xcassets in Resources */,
+				F8F6BB0C1C177E060097675A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F6BB151C177E060097675A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F6BB201C177E060097675A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8F6BAFF1C177E060097675A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F6BB091C177E060097675A /* ViewController.swift in Sources */,
+				F8F6BB071C177E060097675A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F6BB131C177E060097675A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F6BB1C1C177E060097675A /* Single_Button_ExperimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F6BB1E1C177E060097675A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F6BB271C177E060097675A /* Single_Button_ExperimentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8F6BB191C177E060097675A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F6BB021C177E060097675A /* Single Button Experiment */;
+			targetProxy = F8F6BB181C177E060097675A /* PBXContainerItemProxy */;
+		};
+		F8F6BB241C177E060097675A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F6BB021C177E060097675A /* Single Button Experiment */;
+			targetProxy = F8F6BB231C177E060097675A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8F6BB0A1C177E060097675A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8F6BB0B1C177E060097675A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8F6BB0F1C177E060097675A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8F6BB101C177E060097675A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8F6BB291C177E060097675A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8F6BB2A1C177E060097675A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8F6BB2C1C177E060097675A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Single Button Experiment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hope-Elizabeth.Single-Button-Experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8F6BB2D1C177E060097675A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Single Button Experiment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hope-Elizabeth.Single-Button-Experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8F6BB2F1C177E060097675A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Single Button ExperimentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hope-Elizabeth.Single-Button-ExperimentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Single Button Experiment.app/Single Button Experiment";
+			};
+			name = Debug;
+		};
+		F8F6BB301C177E060097675A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Single Button ExperimentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hope-Elizabeth.Single-Button-ExperimentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Single Button Experiment.app/Single Button Experiment";
+			};
+			name = Release;
+		};
+		F8F6BB321C177E060097675A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Single Button ExperimentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hope-Elizabeth.Single-Button-ExperimentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Single Button Experiment";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8F6BB331C177E060097675A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Single Button ExperimentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hope-Elizabeth.Single-Button-ExperimentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Single Button Experiment";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8F6BAFE1C177E060097675A /* Build configuration list for PBXProject "Single Button Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F6BB291C177E060097675A /* Debug */,
+				F8F6BB2A1C177E060097675A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F6BB2B1C177E060097675A /* Build configuration list for PBXNativeTarget "Single Button Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F6BB2C1C177E060097675A /* Debug */,
+				F8F6BB2D1C177E060097675A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8F6BB2E1C177E060097675A /* Build configuration list for PBXNativeTarget "Single Button ExperimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F6BB2F1C177E060097675A /* Debug */,
+				F8F6BB301C177E060097675A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8F6BB311C177E060097675A /* Build configuration list for PBXNativeTarget "Single Button ExperimentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F6BB321C177E060097675A /* Debug */,
+				F8F6BB331C177E060097675A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8F6BAFB1C177E060097675A /* Project object */;
+}
